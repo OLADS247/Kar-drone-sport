@@ -532,3 +532,125 @@ body {
     font-size: 16px;
   }
 }
+/* === Global Responsive Fixes === */
+
+/* Tablet and below */
+@media screen and (max-width: 992px) {
+  .for-kardone {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .navs ul {
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 15px;
+  }
+
+  .images-1 {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 15px;
+  }
+
+  .products-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .product {
+    width: 45%;
+    max-width: 300px;
+  }
+}
+
+/* Mobile (768px and below) */
+@media screen and (max-width: 768px) {
+  #tone, #tr {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .texts-underneath {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .buttons {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .shop-button, .shop-button2 {
+    width: 100%;
+    max-width: 280px;
+    margin: 15px auto;
+    display: block;
+  }
+
+  .essentials {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .products-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  .product {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .container2 {
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+/* Extra small phones (480px and below) */
+@media screen and (max-width: 480px) {
+  #sub-logo {
+    font-size: 14px;
+  }
+
+  .image-specific img {
+    height: 30px;
+  }
+
+  .product-title {
+    font-size: 13px;
+  }
+
+  .product-price {
+    font-size: 14px;
+  }
+
+  .old-price {
+    font-size: 12px;
+  }
+
+  .footer-col h4 {
+    font-size: 14px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
+}
+
+
